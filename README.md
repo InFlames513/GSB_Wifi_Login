@@ -1,5 +1,12 @@
-# GSB_Wifi_Login
+# GSBWifi Login
 GSB wifiye otomatik bağlanmak için bir script dosyaysı.
+
+## UYARI
+*Kodu çalıştırdığınızda konsola bir yazı gelmeyecek çünkü eklemedim .d Kod bozuk değil.*
+
+## Bat Dosyası
+`wifi.bat` dosyası çalışmazsa dosya içindeki `index.js` yerine tam dosya konumu girmeyi deneyim.
+Daha sonra bu bat dosyasını masaüstüne kısayol olarak atıp görselini ve ismini değiştirerek estetiklik kazandırıp kullanabilirsiniz.
 
 ## Nasıl Çalışır?
 İlk olarak site çerezlerini almak için siteye istek attık.
