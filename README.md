@@ -1,2 +1,14 @@
 # GSB_Wifi_Login
-⚡Automatic wifi login for GSB Wifi
+GSB wifiye otomatik bağlanmak için bir script dosyaysı.
+
+## Nasıl Çalışır?
+İlk olarak site çerezlerini almak için siteye istek attık.
+Çerezlerden asıl ihtiyacımız olan CSRF token'di. Bu gerçek bir kullanıcı olduğunuzu doğruluyor, form işlemlerinde botları engellemek sıklıkla kullanılan bir yöntemdir.
+
+Aynı zamanda formdaki input alanında gizlenmiş bir veri daha alındığı için o veriyide tarayıcıdan çekmemiz gerekti:
+```javascript
+<input type="hidden" name="javax.faces.ViewState">
+```
+Daha sonra form verilerini hazırlayıp gerekli sayfaya gönderdik. Gerisini zaten GSB Wifi'nin sitesi hallediyor :)
+
+Aklınıza takılan konuları ve yaşadığınız sorunları issues kısmından sorabilirsiniz, düzenlemelere açığız.
