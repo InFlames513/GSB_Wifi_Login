@@ -19,3 +19,9 @@ Aynı zamanda formdaki input alanında gizlenmiş bir veri daha alındığı iç
 Daha sonra form verilerini hazırlayıp gerekli sayfaya gönderdik. Gerisini zaten GSB Wifi'nin sitesi hallediyor :)
 
 Aklınıza takılan konuları ve yaşadığınız sorunları issues kısmından sorabilirsiniz, düzenlemelere açığız.
+
+## Gerekli Bağımlılıklar
+`axios`: `^1.7.7.`
+`qs`: `^6.13.0`
+
+`node.js`: `^18.x`
