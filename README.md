@@ -1,4 +1,4 @@
-# GSBWifi Login
+# GSB Wifi Login
 GSB wifiye otomatik bağlanmak için bir script dosyaysı.
 
 ## UYARI
