@@ -21,7 +21,6 @@ Daha sonra form verilerini hazırlayıp gerekli sayfaya gönderdik. Gerisini zat
 Aklınıza takılan konuları ve yaşadığınız sorunları issues kısmından sorabilirsiniz, düzenlemelere açığız.
 
 ## Gerekli Bağımlılıklar
-`axios`: `^1.7.7.`
-`qs`: `^6.13.0`
-
+`axios`: `^1.7.7.` <br>
+`qs`: `^6.13.0` <br><br>
 `node.js`: `^18.x`
